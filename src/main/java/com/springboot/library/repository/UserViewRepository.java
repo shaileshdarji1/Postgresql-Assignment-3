@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public interface UserViewRepository extends JpaRepository<UserView,Integer> {
+public interface UserViewRepository extends ReadOnlyRepository<UserView,Integer> {
 }

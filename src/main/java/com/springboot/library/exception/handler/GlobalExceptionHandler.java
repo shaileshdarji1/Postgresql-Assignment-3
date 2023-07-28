@@ -1,7 +1,6 @@
 package com.springboot.library.exception.handler;
 
 import com.springboot.library.exception.*;
-import jakarta.validation.constraints.Email;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
